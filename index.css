@@ -4,7 +4,7 @@
     margin:0;
     box-sizing: border-box;
     max-width:100%;
-    border:3px solid teal;
+    /* border:3px solid teal; */
 }
 html{
     font-size:65.5%;
@@ -12,7 +12,7 @@ html{
 body{
     font-size:2rem;
     line-height:1.5;
-    overflo
+    
 }
 /*page*/
 nav{
@@ -41,7 +41,7 @@ nav a{
 .heading{
     display: inline-block;
     width: 90%;
-    margin:2rem 10%;
+    margin:2rem 0%;
     
 }
 .oimg{
@@ -49,6 +49,7 @@ nav a{
     display: inline-block;
     width: 20%;
     padding-top: 5%;
+    margin-left: ;
     
 }
 .oimg img{
@@ -102,5 +103,24 @@ nav a{
 height:30rem;
 width: 99%;
 margin-left:0.5%;
-overflow: hidden;
+}
+@media(max-width:1080px){
+    .heading h1{
+    text-align: center;
+}
+}
+@media(max-width:800px){
+.heading h1{
+    text-align: center;
+    width:75%;
+}
+}
+@media(max-width:500px){
+    .heading h1{
+        text-align: center;
+        width:65%;
+    }
+    .oimg img{
+        margin-bottom: 5rem;
+    }
 }
